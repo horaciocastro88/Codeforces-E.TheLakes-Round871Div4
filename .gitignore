@@ -1,0 +1,16 @@
+# Ejecutables y Binarios
+the_lakes_v1
+the_lakes_v1.exe
+solution
+solution.exe
+a.out
+*.o
+
+# Archivos temporales y de sistema
+*~
+*.swp
+.DS_Store
+Thumbs.db
+
+# Archivos de proyecto de Geany (opcional)
+*.geany
