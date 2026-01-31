@@ -28,15 +28,16 @@ Para resolver este problema cumpliendo las restricciones de tiempo (3 segundos) 
 ## 💻 Caso de prueba:
 
 Debemos ingresar por consola:
-1		-- porque sera una sola matriz
-3
-3		-- porque sera una matriz 3x3
-1 2 0
-3 4 0
-0 0 5	-- Es la matriz que probamos.
+1 3 3 1 2 0 3 4 0 0 0 5
+
+El primer 1 es porque será una sola matriz.
+Luego 3 y 3 porque sera una matriz 3x3.
+Los siguientes son los numeros dentro de la matriz
+que forman el o los lagos.
 
 Salida:
-10 		-- que es el lago mas grande, 1 + 2 + 3 + 4 
+10
+ Es el lago mas grande, 1 + 2 + 3 + 4. 
 
 
 
