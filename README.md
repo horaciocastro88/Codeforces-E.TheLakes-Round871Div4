@@ -2,13 +2,15 @@
 
 ## 📌 Descripción del Proyecto 
 
-	El objetivo es aprender y aplicar teoría de grafos, y estructuras de datos fundamentasles como la Queue o cola.
-	Hay que encontrar el volumen máximo de un "lago" representado por una matriz $n \times m$, donde cada celda tiene una profundidad.
+	El objetivo es aprender y aplicar teoría de grafos, 
+	y estructuras de datos fundamentales como la queue o cola.
+	Hay que encontrar el volumen máximo de un "lago" representado por una matriz $n \times m$, 
+	donde cada celda tiene una profundidad.
 	Un lago se define como un conjunto de celdas conectadas ortogonalmente con profundidad no nula.
 
 **Link al problema original:** [Codeforces - The Lakes](https://codeforces.com/problemset/problem/1829/E)
 
-#### 📌 Fue aceptado en los testeos de la plataforma.
+📌 Fue aceptado en los testeos de la plataforma.
 
 ## 🚀 Enfoque Técnico y Algoritmo
 Para resolver este problema cumpliendo las restricciones de tiempo (3 segundos) y memoria, implementé un algoritmo de **Búsqueda en Anchura o amplitud (BFS)**.
@@ -25,7 +27,7 @@ Para resolver este problema cumpliendo las restricciones de tiempo (3 segundos) 
 
 ## 💻 Caso de prueba:
 
-### Debemos ingresar por consola:
+Debemos ingresar por consola:
 1		-- porque sera una sola matriz
 3
 3		-- porque sera una matriz 3x3
@@ -33,7 +35,7 @@ Para resolver este problema cumpliendo las restricciones de tiempo (3 segundos) 
 3 4 0
 0 0 5	-- Es la matriz que probamos.
 
-### Salida:
+Salida:
 10 		-- que es el lago mas grande, 1 + 2 + 3 + 4 
 
 
